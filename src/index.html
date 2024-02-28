@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dryant Boilerplate</title>
+    <link rel="stylesheet" href="./assets/styles/main.scss" />
+  </head>
+  <body>
+    <include src="./views/header.html"></include>
+    <main class="container">
+      <h1 id="dryant-boilerplate">Dryant Boilerplate</h1>
+      <p>
+        <img
+          src="https://img.shields.io/github/license/dryant/dryant-boilerplate"
+          alt="GitHub"
+        />
+      </p>
+      <p>
+        Un Boilerplate es un conjunto de archivos y carpetas que se utilizan
+        como punto de partida para un nuevo proyecto. Puede contener además de
+        archivos de código, configuraciones, dependencias, entre otros. El
+        objetivo de un Boilerplate es evitar tener que empezar desde cero cada
+        vez que se inicia un nuevo proyecto.
+      </p>
+      <p>
+        Boilerplate para iniciar rápidamente proyectos de desarrollo web HTML y
+        CSS con Sass, Parcel y herramientas de postprocesamiento como PostCSS y
+        PostHTML. Este boilerplate incluye una estructura de archivos bien
+        organizada y configurada con las dependencias necesarias para comenzar a
+        desarrollar de inmediato.
+      </p>
+      <h2 id="descripci-n">Descripción</h2>
+      <p>
+        Este boilerplate proporciona una base sólida para comenzar a desarrollar
+        proyectos web HTML y CSS de manera eficiente. Con una estructura de
+        archivos bien definida y configurada, y un conjunto de dependencias
+        útiles, puedes comenzar a construir tu sitio web sin tener que
+        preocuparte por la configuración inicial.
+      </p>
+      <h2 id="dependencias">Dependencias</h2>
+      <ul>
+        <li>
+          <strong>Sass</strong>: Permite utilizar características avanzadas de
+          CSS como variables, anidamiento y mixins, lo que facilita la escritura
+          y el mantenimiento de estilos.
+        </li>
+        <li>
+          <strong>Parcel</strong>: Es un empaquetador de módulos rápido,
+          zero-configuration, que se encarga de compilar y servir tu proyecto
+          automáticamente.
+        </li>
+        <li>
+          <strong>PostCSS</strong>: Un procesador de CSS que te permite
+          transformar tus estilos con plugins, como autoprefixer, para mejorar
+          la compatibilidad con los navegadores.
+        </li>
+        <li>
+          <strong>PostHTML</strong>: Un procesador HTML que te permite utilizar
+          plugins como PostHTML Include para incluir archivos HTML dentro de
+          otros.
+        </li>
+        <li>
+          <strong>Autoprefixer</strong>: Un plugin de PostCSS que añade
+          automáticamente los prefijos de los navegadores a tus estilos CSS, lo
+          que ayuda a garantizar una mejor compatibilidad entre navegadores.
+        </li>
+      </ul>
+      <h2 id="instalaci-n">Instalación</h2>
+      <pre><code><span class="hljs-symbol">cd</span> dryant-<span class="hljs-keyword">boilerplate
+</span><span class="hljs-symbol">npm</span> install
+</code></pre>
+      <h2 id="uso">Uso</h2>
+      <p>
+        Una vez clonado el repositorio e instalado las dependencias, si lanzamos
+        el comando <em>npm run parcel:serve</em> automáticamente se abrirá el
+        navegador con la página por defecto del boilerplate. Cada vez que
+        modifiques cualquier archivo y guardes los cambios automáticamente se
+        actualizará la página para ver los cambios efectuados.
+      </p>
+      <h3 id="requisitos">Requisitos</h3>
+      <p>
+        Para utilizar este boilerplate, necesitas tener instalado Node.js en tu
+        sistema. Recomendamos utilizar la versión 14 o superior.
+      </p>
+      <h3 id="clonar-el-repositorio">Clonar el repositorio</h3>
+      <pre><code>git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/dryant/dryant-boilerplate.git
+</code></pre>
+
+      <p>
+        <b>npm run parcel:serve</b> Inicia un servidor de desarrollo con Parcel
+        para la página index.html, observando cambios y recargando
+        automáticamente el navegador.
+      </p>
+      <p>
+        <b>npm run parcel:build</b> Compila el proyecto para producción con
+        Parcel, optimizando los recursos y preparándolos para despliegue.
+      </p>
+      <p>
+        <b>npm run format </b>Formatea automáticamente los archivos HTML y CSS
+        utilizando Prettier.
+      </p>
+
+      <p>
+        <b>npm run clean </b>Limpia la carpeta dist y otros directorios
+        temporales generados durante el desarrollo.
+      </p>
+
+      <p>
+        <b>npm run dev </b>Inicia un servidor de desarrollo con Parcel y abre el
+        proyecto en el navegador.
+      </p>
+
+      <p>
+        <b>npm run build </b>Compila el proyecto para producción, optimizando y
+        minificando los archivos para su despliegue.
+      </p>
+      <p><b>npm start </b>Inicia un servidor de desarrollo de Parcel</p>
+
+      <p>
+        <b>npm test </b>Ejecuta pruebas (actualmente no hay pruebas
+        especificadas).
+      </p>
+    </main>
+    <include src="./views/footer.html"></include>
+  </body>
+</html>
