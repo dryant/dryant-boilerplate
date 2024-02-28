@@ -46,6 +46,52 @@ h6 {
   margin: 0.3rem 0;
 }
 
+p {
+  margin: 1rem 0;
+}
+
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+
+b {
+  font-weight: bold;
+}
+
+h1#dryant-boilerplate {
+  margin: 0;
+}
+
+nav.menu ul li a {
+  font-weight: 100;
+  font-family: "Raleway";
+  font-size: 14px;
+}
+
+.license {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  color: #fff;
+  margin: 0px 0px 35px 0px;
+  text-align: center;
+}
+.license .title {
+  background-color: #333;
+  border-radius: 3px 0 0 3px;
+  padding: 2px 8px 3px;
+}
+
+.license .type {
+  padding: 2px 8px 3px;
+  background-color: #999;
+  border-radius: 0 3px 3px 0;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -63,6 +109,17 @@ a:hover {
   text-decoration: underline;
 }
 
+pre {
+  font-family: monospace;
+  background-color: lightgray;
+  margin: 10px 80px 20px 40px;
+  width: auto;
+}
+pre {
+  padding: 5px 30px;
+  line-height: 2;
+  font-size: 12px;
+}
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -124,7 +181,12 @@ header .container {
   line-height: 1;
 }
 
+.logo a p {
+  margin: 0;
+  font-size: 22px;
+}
 .logo a p.subtitle {
+  margin: 0;
   font-size: 11px;
   font-weight: 100;
   font-style: italic;
